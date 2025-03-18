@@ -20,7 +20,7 @@
 # SOFTWARE.
 #
 
-FROM        --platform=$TARGETOS/$TARGETARCH ghcr.io/quozul/picolimbo:feat-pico-wake
+FROM        --platform=$TARGETOS/$TARGETARCH ghcr.io/quozul/picolimbo:master
 
 LABEL       author="Quozul" maintainer="me@quozul.dev"
 
